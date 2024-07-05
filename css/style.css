@@ -1,0 +1,108 @@
+body { 
+    padding-top: 60px; 
+}
+
+.dimensions{
+    min-width: 320px;
+}
+
+.grid{
+    background-color: #6fc0d1;
+    font-family: 'Gafata', sans-serif;
+    font-size: 13pt;
+    color: #fff;
+    padding-top:15px;
+    padding-left:20px;
+    height:199px;
+    width: 180px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.grid:last-of-type{
+    margin-right: 0px;
+}
+
+.imageGrid{
+    background-color: #fff;
+    font-family: 'Gafata', sans-serif;
+    font-size: 13pt;
+    padding:0px;
+    height:199px;
+    width: 180px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.customImage{
+    
+}
+
+.fa-white{
+    color:white;
+}
+
+.blockRow{
+}
+
+.superHidden{
+    display:none;
+    opacity:0;
+}
+
+.closeButton{
+    background-color:#363636;
+    color:#fff;
+    padding:5px;
+    padding-left:15px;
+    text-align:right;
+    padding-right:10px;
+    cursor: pointer;    
+}
+
+.content{
+    background-color: #f1f1f1;
+}
+
+/* Navigation bar */
+
+nav.custom-navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+div.custom-navbar{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.byggward-logo{
+    cursor: pointer;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+
+h1{
+    font-family: 'Gafata', sans-serif;
+    margin-bottom: 5%; 
+}
+
+/* Mobile */ 
+
+.mobileDivContent{
+    margin: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.mobileDivHeader{
+    background-color: #d0c7b6;
+    font-family: 'Gafata', sans-serif;
+    font-size: 13pt;
+    color: #fff;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height:40px;
+    vertical-align: middle;
+}

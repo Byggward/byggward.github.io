@@ -1,0 +1,35 @@
+.mobile-grid{
+    background-color: #6fc0d1;
+    font-family: 'Gafata', sans-serif;
+    font-size: 13pt;
+    color: #fff;
+    padding-top:15px;
+    padding-left:20px;
+    height:166px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.mobile-grid:last-of-type{
+    margin-right: 0px;
+}
+
+.mobile-grid:first-of-type{
+    margin-left:10px;
+}
+
+.mobile-imageGrid{
+    background-color: #fff;
+    font-family: 'Gafata', sans-serif;
+    font-size: 13pt;
+    padding:0px;
+    height:166px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.mobile-imageGrid:first-of-type{
+    margin-left:10px;
+}

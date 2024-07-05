@@ -1,0 +1,142 @@
+/*
+    480px - small devices xs
+    750px - small device tablets sm
+    970px - medium device desktops md
+    1170px - large device desktops lg
+*/
+
+.intermediateRow{
+    width:1105px;
+    padding-top:10px;
+}
+
+.customNavbar{
+    margin-left:40px;
+}
+
+div.custom-margin{
+    margin-top:5px;
+    margin-right:90px !important;
+}
+
+a.custom-navbar:link {
+    color:#000;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 12pt;
+    font-family: 'Gafata', sans-serif;
+}
+a.custom-navbar:visited {
+    color:#000;
+    text-decoration: none;
+}
+a.custom-navbar:hover {
+    color:#000;
+    text-decoration: underline;
+}
+a.custom-navbar:active {
+    color:#000;
+    text-decoration: none;
+}
+
+
+@media (max-width: 1169px) {
+    .hiddenBelow-1170 {
+        display:none !important;
+    }
+    .visibleTo-1170{
+        display:block !important;
+    }
+    .intermediateRow{
+        width:920px;
+        padding-top:10px;
+    }
+    .customNavbar{
+        margin-left:30px;
+    }
+    div.custom-margin{
+        margin-top:5px;
+        margin-right:70px !important;
+    }
+    h1{
+        font-family: 'Gafata', sans-serif;
+        font-size: 20pt;
+    }    
+}
+
+@media (max-width: 990px) {
+    .hiddenBelow-970 {
+        display:none !important;
+    }
+    .visibleTo-970{
+        display:block !important;
+    }
+    .intermediateRow{
+        width:735px;
+        padding-top:10px;
+    }
+    .customNavbar{
+        margin-left:20px;
+    }
+    a.custom-navbar:link {
+        color:#000;
+        text-decoration: none;
+        padding-left: 15px;
+        font-size: 10pt;
+        font-family: 'Gafata', sans-serif;
+    }
+    div.custom-margin{
+        margin-top:5px;
+        margin-right:30px !important;
+    }     
+    h1{
+        font-family: 'Gafata', sans-serif;
+        font-size: 18pt;
+    }       
+}
+
+@media (max-width: 749px) {
+    .hiddenBelow-750 {
+        display:none !important;
+    }
+    .visibleTo-750{
+        display:block !important;
+    }
+    .intermediateRow{
+        width:550px;
+        padding-top:10px;
+    }
+    .customNavbar{
+        margin-left:10px;
+    }
+    div.custom-margin{
+        margin-top:5px;
+        margin-right:30px !important;
+    } 
+    h1{
+        font-family: 'Gafata', sans-serif;
+        font-size: 16pt;
+    }       
+}
+
+@media (max-width: 479px) {
+    .hiddenBelow-480 {
+        display:none !important;
+    }
+    .visibleTo-480{
+        display:block !important;
+    }
+    .intermediateRow{
+        width:310px;
+        padding-top:10px;
+        margin-left: 10px;
+    }    
+}
+
+@media (max-width: 350px) {
+    .intermediateRow{
+        width:310px;
+        padding-top:10px;
+        margin-left: 10px;
+    }    
+}
