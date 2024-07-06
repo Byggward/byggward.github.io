@@ -639,6 +639,9 @@ footer .footer-wrapper {
     grid-template-areas: "header header" "left right";
   }
 }
+footer .footer-wrapper h2 {
+  font-size: 18px;
+}
 footer .footer-wrapper .header {
   font-family: "bold";
   display: block;
