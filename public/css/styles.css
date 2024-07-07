@@ -709,4 +709,22 @@ main {
   main {
     padding-top: 0;
   }
+}
+
+.gallery {
+  width: 100%;
+  overflow-x: auto;
+}
+.gallery .gallery-wrapper {
+  display: flex;
+  width: 180%;
+}
+.gallery .gallery-wrapper .gallery-item {
+  width: 30%;
+  margin: 4px;
+  box-sizing: border-box;
+}
+.gallery .gallery-wrapper .gallery-item img {
+  display: block;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

@@ -34,3 +34,24 @@ main {
     padding-top: 0;
   }
 }
+
+.gallery {
+  width: 100%;
+  overflow-x: auto;
+
+  & .gallery-wrapper {
+    display: flex;
+    width: 180%;
+
+    & .gallery-item {
+      width: 30%;
+      margin: 4px;
+      box-sizing: border-box;
+
+      & img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
