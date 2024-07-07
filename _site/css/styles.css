@@ -27,6 +27,18 @@ nav {
 nav.show .menu {
   display: flex;
 }
+nav.show .menu-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 992px) {
+  nav.show .menu-wrapper {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+}
 nav.show .nav-backdrop {
   position: fixed;
   width: 100vw;
@@ -160,18 +172,6 @@ nav .nav-top .menu-button.active span:after {
   transition: 0.2s all ease-in-out;
   border-radius: 0;
   height: 4px;
-}
-nav .menu-wrapper {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-@media (min-width: 992px) {
-  nav .menu-wrapper {
-    position: static;
-    width: 100%;
-    height: auto;
-  }
 }
 nav .menu {
   list-style-type: none;
