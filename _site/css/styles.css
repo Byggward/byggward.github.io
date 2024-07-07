@@ -723,6 +723,11 @@ main {
   margin: 4px;
   box-sizing: border-box;
 }
+@media (min-width: 992px) {
+  .gallery .gallery-wrapper .gallery-item {
+    height: 300px;
+  }
+}
 .gallery .gallery-wrapper .gallery-item img {
   display: block;
   height: 100%;

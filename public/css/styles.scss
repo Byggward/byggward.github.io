@@ -47,6 +47,10 @@ main {
       margin: 4px;
       box-sizing: border-box;
 
+      @include breakpoint-up(lg) {
+        height: 300px;
+      }
+
       & img {
         display: block;
         height: 100%;
