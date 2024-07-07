@@ -717,24 +717,13 @@ main {
 }
 .gallery .gallery-wrapper {
   display: flex;
-  width: 240%;
-}
-@media (min-width: 992px) {
-  .gallery .gallery-wrapper {
-    width: 180%;
-  }
 }
 .gallery .gallery-wrapper .gallery-item {
-  width: 40%;
+  height: 180px;
   margin: 4px;
   box-sizing: border-box;
 }
-@media (min-width: 992px) {
-  .gallery .gallery-wrapper .gallery-item {
-    width: 30%;
-  }
-}
 .gallery .gallery-wrapper .gallery-item img {
   display: block;
-  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=styles.css.map */
