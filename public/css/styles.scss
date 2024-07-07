@@ -41,12 +41,20 @@ main {
 
   & .gallery-wrapper {
     display: flex;
-    width: 180%;
+    width: 240%;
+
+    @include breakpoint-up(lg) {
+      width: 180%;
+    }
 
     & .gallery-item {
-      width: 30%;
+      width: 40%;
       margin: 4px;
       box-sizing: border-box;
+
+      @include breakpoint-up(lg) {
+        width: 30%;
+      }
 
       & img {
         display: block;
