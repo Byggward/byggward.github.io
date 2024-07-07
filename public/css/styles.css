@@ -690,8 +690,25 @@ body {
 }
 
 p {
-  line-height: 24px;
-  font-size: 16px;
+  line-height: 27px;
+  font-size: 18px;
+}
+@media (min-width: 992px) {
+  p {
+    line-height: 24px;
+    font-size: 16px;
+  }
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "bold";
 }
 
 header {

@@ -16,8 +16,24 @@ body {
 }
 
 p {
-  line-height: 24px;
-  font-size: 16px;
+  line-height: 27px;
+  font-size: 18px;
+
+  @include breakpoint-up(lg) {
+    line-height: 24px;
+    font-size: 16px;
+  }
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "bold";
 }
 
 header {
