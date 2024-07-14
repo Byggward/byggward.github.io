@@ -101,7 +101,7 @@ nav .nav-top button {
   font-family: "regular";
   width: 100%;
   padding: 4px 0;
-  margin: 16px 0 32px 0;
+  margin: 16px 0 0 0;
 }
 @media (min-width: 992px) {
   nav .nav-top button {
@@ -109,6 +109,7 @@ nav .nav-top button {
     padding: 6px 16px;
     margin: 0;
     border-radius: 4px;
+    margin: 16px 0 32px 0;
   }
 }
 nav .nav-top .menu-button {
@@ -185,8 +186,8 @@ nav .menu {
   width: 100%;
   margin: 0;
   display: none;
-  height: calc(100% - 123px);
-  margin-top: 123px;
+  height: calc(100% - 96px);
+  margin-top: 96px;
   overflow: auto;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.3);
