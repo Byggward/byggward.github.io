@@ -176,7 +176,7 @@ nav {
     height: calc(100% - 123px);
     margin-top: 123px;
     overflow: auto;
-    position: absolute;
+    position: fixed;
     background-color: rgba(0, 0, 0, 0.3);
 
     @include breakpoint-up(lg) {
@@ -223,7 +223,6 @@ nav {
       }
 
       &::after {
-        content: "";
         position: absolute;
         width: 0;
         height: 2px;
@@ -231,6 +230,10 @@ nav {
         left: 50%;
         background-color: #333;
         transition: all 0.3s ease;
+
+        @include breakpoint-up(lg) {
+          content: "";
+        }
       }
 
       &:hover::after {

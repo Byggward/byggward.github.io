@@ -23,7 +23,7 @@ layout: "base.njk"
   </p>
 
   <p>
-    Över 30 år av renoverings- och ombyggnadsarbeten har givit oss god
+    Över 40 år av renoverings- och ombyggnadsarbeten har givit oss god
     erfarenhet av att hitta detaljlösningar till varje enskilt projekt. Även
     om typkonstruktionerna ofta är de samma måste många delar anpassas till
     befintliga konstruktioner.

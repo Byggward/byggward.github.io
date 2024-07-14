@@ -7,8 +7,6 @@ layout: "base.njk"
   Vi har under våra mer än 40 år i branchen utfört alla olika typer av
   byggprojekt - både små och stora. Allt ifrån att bygga altaner och terasser, badrums- och köksrenoveringar till tillbyggnationer och totalentreprenader.
 
-  <h2>Nybyggnation i Täby</h2>
-  <p>Vi har utfört många nybyggnation av villor.</p>
   <h2>Tillbyggnader i Täby</h2>
   <p>Vi har utfört tillbyggnadsarbeten av villor, radhus och kedjehus.</p>
   <div class="gallery">
