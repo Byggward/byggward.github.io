@@ -445,7 +445,7 @@ nav .right {
   max-width: 1260px;
   margin: 0 auto;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "d1 d7" "d2 d11" "d5 d3" "d4 d15";
+  grid-template-areas: "d1 d7" "d2 d11" "d5 d3" "d10 d15";
 }
 @media (min-width: 576px) {
   .masonry-wrapper {
@@ -502,9 +502,6 @@ nav .right {
   color: white !important;
   text-decoration: none;
 }
-.masonry-wrapper div.text-block a:hover {
-  text-decoration: underline;
-}
 
 .text-block {
   font-family: "regular";
@@ -537,6 +534,12 @@ nav .right {
 
 .d4 {
   grid-area: d4;
+  display: none;
+}
+@media (min-width: 576px) {
+  .d4 {
+    display: block;
+  }
 }
 
 .d6 {
@@ -575,7 +578,11 @@ nav .right {
 
 .d10 {
   grid-area: d10;
-  display: none;
+}
+@media (min-width: 576px) {
+  .d10 {
+    display: none;
+  }
 }
 @media (min-width: 1200px) {
   .d10 {

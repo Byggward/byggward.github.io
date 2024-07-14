@@ -11,7 +11,7 @@
     "d1 d7"
     "d2 d11"
     "d5 d3"
-    "d4 d15";
+    "d10 d15";
 
   @include breakpoint-up(sm) {
     grid-template-rows: repeat(3, 1fr);
@@ -76,10 +76,6 @@
       a {
         color: white !important;
         text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
       }
     }
   }
@@ -116,6 +112,11 @@
 
 .d4 {
   grid-area: d4;
+  display: none;
+
+  @include breakpoint-up(sm) {
+    display: block;
+  }
 }
 
 .d6 {
@@ -148,7 +149,11 @@
 
 .d10 {
   grid-area: d10;
-  display: none;
+
+  @include breakpoint-up(sm) {
+    display: none;
+  }
+
   @include breakpoint-up(xl) {
     display: block;
   }
