@@ -9,10 +9,6 @@ body {
   font-family: "regular";
   -webkit-font-smoothing: antialiased;
   margin: 0;
-
-  @include breakpoint-up(lg) {
-    margin: 0 8px;
-  }
 }
 
 p {
@@ -28,6 +24,11 @@ p {
 h1 {
   font-size: 32px;
   line-height: 40px;
+
+  @include breakpoint-up(lg) {
+    line-height: 1.5;
+    font-size: 40px;
+  }
 }
 
 h1,
@@ -35,6 +36,14 @@ h2,
 h3 {
   font-family: "bold";
   font-weight: normal;
+}
+
+section {
+  margin-bottom: 32px;
+
+  @include breakpoint-up(lg) {
+    margin-bottom: 64px;
+  }
 }
 
 header {
@@ -49,11 +58,12 @@ header {
 }
 
 main {
-  margin: 0 16px;
-  padding-top: 128px;
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 128px 16px 16px 16px;
 
   @include breakpoint-up(lg) {
-    padding-top: 0;
+    padding: 0 32px 32px 32px;
   }
 }
 

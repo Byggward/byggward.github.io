@@ -1,5 +1,12 @@
 footer {
-  margin: 0 16px;
+  margin: 34px 0 0 0;
+  background-color: black;
+  color: white;
+  padding: 0 16px 48px 16px;
+
+  @include breakpoint-up(lg) {
+    padding: 0 32px 32px 32px;
+  }
 
   .footer-wrapper {
     display: grid;
@@ -25,6 +32,12 @@ footer {
       font-size: 18px;
     }
 
+    & a,
+    & a:visited,
+    & a:active {
+      color: white;
+    }
+
     & .header {
       font-family: "bold";
       display: block;
@@ -46,7 +59,7 @@ footer {
     grid-area: right;
     padding-bottom: 32px;
 
-    @include breakpoint-up(md) {
+    @include breakpoint-up(lg) {
       padding-left: 8px;
     }
   }
@@ -54,13 +67,12 @@ footer {
   .footer-contact-phone,
   .footer-contact-email {
     display: flex;
-    width: 250px;
-    justify-content: space-between;
 
     a,
     span {
       display: block;
       margin: 12px 0;
+      width: 150px;
     }
   }
 }

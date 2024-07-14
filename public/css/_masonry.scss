@@ -47,8 +47,13 @@
   }
 
   div {
-    min-height: 200px;
+    max-height: 280px;
     overflow: hidden;
+    box-sizing: border-box;
+
+    @include breakpoint-up(sm) {
+      max-height: none;
+    }
 
     img {
       width: 100%;
@@ -111,16 +116,6 @@
 
 .d4 {
   grid-area: d4;
-
-  img:last-child {
-    display: none;
-  }
-
-  @include breakpoint-up(sm) {
-    img:last-child {
-      display: block;
-    }
-  }
 }
 
 .d6 {

@@ -95,7 +95,7 @@ nav {
 
     .menu-button {
       position: absolute;
-      top: 26px;
+      top: 30px;
       right: 16px;
       height: 32px;
       width: 32px;
@@ -108,7 +108,7 @@ nav {
       span {
         width: 32px;
         height: 4px;
-        background-color: #333;
+        background-color: black;
         display: block;
         transition: 0.2s all ease-in-out;
 
@@ -118,7 +118,7 @@ nav {
           top: -11px;
           width: 32px;
           height: 8px;
-          background-color: #333;
+          background-color: black;
           transform: none;
           display: block;
           transition: 0.2s all ease-in-out;
@@ -132,7 +132,7 @@ nav {
           top: 8px;
           width: 32px;
           height: 6px;
-          background-color: #333;
+          background-color: black;
           transform: none;
           transition: 0.2s all ease-in-out;
           display: block;

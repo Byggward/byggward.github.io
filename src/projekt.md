@@ -3,10 +3,12 @@ title: "Byggwardrdrdd"
 layout: "base.njk"
 ---
 
+<section>
   <h1>Våra projekt</h1>
-  Vi har under våra mer än 40 år i branchen utfört alla olika typer av
-  byggprojekt - både små och stora. Allt ifrån att bygga altaner och terasser, badrums- och köksrenoveringar till tillbyggnationer och totalentreprenader.
-
+  <p>Vi har under våra mer än 40 år i branchen utfört alla olika typer av
+  byggprojekt - både små och stora. Allt ifrån att bygga altaner och terasser, badrums- och köksrenoveringar till tillbyggnationer och totalentreprenader.</p>
+</section>
+<section>
   <h2>Tillbyggnader i Täby</h2>
   <p>Vi har utfört tillbyggnadsarbeten av villor, radhus och kedjehus.</p>
   <div class="gallery">
@@ -35,6 +37,8 @@ layout: "base.njk"
   <div class="gallery-item"><img src="/images/gallery/74.png"></div>
   </div>
   </div>
+</section>
+<section>
   <h2>Renoveringsarbeten i Täby</h2>
   <p>
     Vi har utfört renoveringsarbeten av badrum, kök, fasader, tak, fönster,
@@ -50,8 +54,11 @@ layout: "base.njk"
   <div class="gallery-item"><img src="/images/gallery/86.png"></div>
   </div>
   </div>
+</section>
+<section>
   <h2>Totalentreprenad i Täby</h2>
   <p>
     Vi utfört en rad totalentreprenadsarbeten där vi tillhandahåller en
     helhetslösning. Från skiss till nyckelfärdigt.
   </p>
+</section>
