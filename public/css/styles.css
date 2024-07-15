@@ -38,7 +38,6 @@ nav.show .nav-backdrop {
 nav .nav-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   flex-flow: column wrap;
   position: absolute;
   width: 100%;
@@ -48,10 +47,14 @@ nav .nav-top {
 }
 @media (min-width: 992px) {
   nav .nav-top {
+    align-items: center;
     flex-flow: row wrap;
     position: relative;
     padding-top: 0;
   }
+}
+nav .nav-top .logo-link {
+  width: 80%;
 }
 nav .nav-top .logo {
   align-self: flex-start;
@@ -661,7 +664,6 @@ footer .footer-left {
 }
 footer .footer-right {
   grid-area: right;
-  padding-bottom: 32px;
 }
 @media (min-width: 992px) {
   footer .footer-right {
@@ -695,6 +697,12 @@ p {
 
 h1 {
   font-size: 48px;
+  margin: 48px 0 0 0;
+}
+@media (min-width: 992px) {
+  h1 {
+    margin: revert;
+  }
 }
 
 h1,
@@ -730,7 +738,7 @@ header {
 main {
   margin: 0 auto;
   max-width: 1260px;
-  padding: 128px 16px 16px 16px;
+  padding: 96px 16px 16px 16px;
 }
 @media (min-width: 992px) {
   main {

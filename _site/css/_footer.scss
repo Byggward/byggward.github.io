@@ -58,7 +58,6 @@ footer {
 
   .footer-right {
     grid-area: right;
-    padding-bottom: 32px;
 
     @include breakpoint-up(lg) {
       padding-left: 8px;

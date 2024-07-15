@@ -40,7 +40,6 @@ nav {
   .nav-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-flow: column wrap;
     position: absolute;
     width: 100%;
@@ -49,9 +48,14 @@ nav {
     padding-top: 20px;
 
     @include breakpoint-up(lg) {
+      align-items: center;
       flex-flow: row wrap;
       position: relative;
       padding-top: 0;
+    }
+
+    .logo-link {
+      width: 80%;
     }
 
     .logo {
