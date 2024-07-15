@@ -92,7 +92,7 @@ nav .nav-top button {
     padding: 6px 16px;
     margin: 0;
     border-radius: 4px;
-    margin: 16px 0 32px 0;
+    margin: 24px 0 24px 0;
   }
 }
 nav .nav-top .menu-button {
@@ -214,6 +214,7 @@ nav .menu li a {
   nav .menu li a {
     display: inline;
     padding: 0 20px 10px 20px;
+    font-weight: 600;
   }
 }
 nav .menu li a::after {
