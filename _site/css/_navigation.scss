@@ -1,7 +1,10 @@
 nav {
-  max-width: 1260px;
-  margin: 0 auto;
+  max-width: 900px;
   background: white;
+
+  @include breakpoint-up(lg) {
+    margin: 0 auto;
+  }
 
   &.show {
     .menu {
@@ -79,7 +82,7 @@ nav {
       border: 0;
       outline: none;
       cursor: pointer;
-      font-family: "regular";
+      font-family: "Libre Franklin", sans-serif;
       width: 100%;
       padding: 4px 0;
       margin: 16px 0 0 0;
@@ -115,15 +118,13 @@ nav {
         &:before {
           content: "";
           position: absolute;
-          top: -11px;
+          top: -8px;
           width: 32px;
-          height: 8px;
+          height: 4px;
           background-color: black;
           transform: none;
           display: block;
           transition: 0.2s all ease-in-out;
-          border-top-left-radius: 10px;
-          border-top-right-radius: 10px;
         }
 
         &:after {
@@ -131,13 +132,11 @@ nav {
           position: absolute;
           top: 8px;
           width: 32px;
-          height: 6px;
+          height: 4px;
           background-color: black;
           transform: none;
           transition: 0.2s all ease-in-out;
           display: block;
-          border-bottom-left-radius: 2px;
-          border-bottom-right-radius: 2px;
         }
       }
 
@@ -170,7 +169,7 @@ nav {
     list-style-type: none;
     padding: 0;
     flex-flow: column nowrap;
-    font-family: "regular";
+    font-family: "Libre Franklin", sans-serif;
     line-height: 24px;
     z-index: 3;
     width: 100%;

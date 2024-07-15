@@ -3,6 +3,7 @@ title: "Byggwardrdrdd"
 layout: "base.njk"
 ---
 
+<section>
   <h1>Från skiss till nyckelfärdigt</h1>
   <p>
     De flesta byggobjekt börjar med en skiss. Efter detta sker ofta den
@@ -43,3 +44,4 @@ layout: "base.njk"
     en kvalitet på de synliga detaljarbetet med god finish. Detta har givit
     nöjda kunder och besparat oss onödiga garantiarbeten.
   </p>
+</section>

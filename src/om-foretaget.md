@@ -3,6 +3,7 @@ title: "Byggwardrdrdd"
 layout: "base.njk"
 ---
 
+<section>
   <h1>Om företaget</h1>
   <p>
     Bygg Ward AB startades den 1 januari 1983 av Hans Ward. Detta var en
@@ -30,3 +31,4 @@ layout: "base.njk"
     konjunkturen på byggmarknaden. Periodvis har underentreprenörer lejts in
     till verksamheten.
   </p>
+</section>

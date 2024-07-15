@@ -4,7 +4,7 @@
   grid-column-gap: 4px;
   grid-row-gap: 4px;
   max-width: 1260px;
-  margin: 0 auto;
+  margin: 16px auto 0 auto;
 
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
@@ -82,7 +82,7 @@
 }
 
 .text-block {
-  font-family: "regular";
+  font-family: "Libre Franklin", sans-serif;
   font-size: 20px;
   padding: 16px;
   font-weight: 400;

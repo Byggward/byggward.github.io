@@ -1,4 +1,4 @@
-@import "./fonts";
+//@import "./fonts";
 @import "./variables";
 @import "./utils";
 @import "./navigation";
@@ -6,40 +6,32 @@
 @import "./footer";
 
 body {
-  font-family: "regular";
+  font-family: "Libre Franklin", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0;
 }
 
 p {
-  line-height: 27px;
-  font-size: 18px;
-
-  @include breakpoint-up(lg) {
-    line-height: 24px;
-    font-size: 16px;
-  }
+  line-height: 30px;
+  font-size: 17px;
+  margin: 24px 0;
 }
 
 h1 {
-  font-size: 32px;
-  line-height: 40px;
-
-  @include breakpoint-up(lg) {
-    line-height: 1.5;
-    font-size: 40px;
-  }
+  font-size: 48px;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "bold";
-  font-weight: normal;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 800;
 }
 
 section {
   margin-bottom: 32px;
+  max-width: 900px;
+  margin: 0 auto;
 
   @include breakpoint-up(lg) {
     margin-bottom: 64px;

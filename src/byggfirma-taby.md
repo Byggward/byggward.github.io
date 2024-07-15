@@ -3,6 +3,7 @@ title: "Byggwardrdrdd"
 layout: "base.njk"
 ---
 
+<section>
   <h1>Kontakta oss - En erfaren byggfirma i Täby</h1>
   <address>
     <strong>Bygg Ward AB</strong><br />
@@ -18,3 +19,4 @@ layout: "base.njk"
     <strong>Maila oss</strong><br />
     <a href="mailto:ward@byggward.se">ward@byggward.se</a>
   </address>
+</section>
