@@ -8,3 +8,20 @@ paths:
   includes: _includes
   pages: ''
 timezone: Etc/UTC
+_editables:
+  text:
+    bold: true
+    italics: true
+    underline: true
+  block:
+    format: p h3
+    undo: true
+    redo: true
+  link:
+    bold: true
+    italics: true
+    underline: true
+  image:
+    mime_type: image/png
+    allowed_sources:
+      - site-files
