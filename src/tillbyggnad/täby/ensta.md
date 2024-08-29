@@ -4,7 +4,7 @@ canonical: "https://www.byggward.se/tillbyggnad/täby/ensta"
 layout: "base.njk"
 ---
 
-<section>
+<section class="editable">
   <h1>Tillbyggnad i två plan i Ensta, Täby</h1>
   <p>
     De flesta byggobjekt börjar med en skiss. Efter detta sker ofta den
@@ -14,7 +14,7 @@ layout: "base.njk"
   </p>
   </section>
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 2 plan</h2>
       <p>Montering av takstolar i Ensta Täby</p>
     </div>
@@ -24,7 +24,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 2 plan</h2>
       <p>Ensta Täby</p>
     </div>
@@ -34,7 +34,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 2 plan</h2>
       <p>Stomme / takstolar i Ensta, Täby</p>
     </div>
@@ -44,7 +44,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 2 plan</h2>
       <p>Takhöjd i nock 6,5 m, Skarpäng Täby</p>
     </div>
@@ -54,7 +54,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 2 plan</h2>
       <p>Takstolar/ yttertak, Ensta, Täby</p>
     </div>

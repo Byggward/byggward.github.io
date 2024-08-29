@@ -4,7 +4,7 @@ canonical: "https://www.byggward.se/renovering/dusch-och-wc"
 layout: "base.njk"
 ---
 
-<section>
+<section class="editable">
   <h1>Renoveringsarbeten av dusch- och WC</h1>
   <p>
     De flesta byggobjekt börjar med en skiss. Efter detta sker ofta den
@@ -14,7 +14,7 @@ layout: "base.njk"
   </p>
   </section>
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Dusch/ WC med Yasuragikar</h2>
       <p>Text...</p>
     </div>
@@ -24,7 +24,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Dusch/ WC med Yasuragikar</h2>
       <p>Text...</p>
     </div>
@@ -34,7 +34,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Badrum, kakelsättning</h2>
       <p>Text...</p>
     </div>
@@ -44,7 +44,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Dusch/ WC kakelsättning</h2>
       <p>Text...</p>
     </div>
@@ -54,7 +54,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Dusch/ WC kakelsättning</h2>
       <p>Text...</p>
     </div>
@@ -64,7 +64,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Badrum, kakelsättning med infälld spegel</h2>
       <p>Text...</p>
     </div>

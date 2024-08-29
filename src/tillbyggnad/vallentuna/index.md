@@ -4,7 +4,7 @@ canonical: "https://www.byggward.se/tillbyggnad/vallentuna"
 layout: "base.njk"
 ---
 
-<section>
+<section class="editable">
   <h1>Tillbyggnad i 1.5 plan i Vallentuna</h1>
   <p>
     De flesta byggobjekt börjar med en skiss. Efter detta sker ofta den
@@ -14,7 +14,7 @@ layout: "base.njk"
   </p>
   </section>
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1,5 plan</h2>
       <p>Vallentuna</p>
     </div>

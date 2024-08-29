@@ -4,7 +4,7 @@ canonical: "https://www.byggward.se/tillbyggnad/täby/näsbypark"
 layout: "base.njk"
 ---
 
-<section>
+<section class="editable">
   <h1>Tillbyggnad i 1,5 plan i Näsbypark, Täby</h1>
   <p>
     De flesta byggobjekt börjar med en skiss. Efter detta sker ofta den
@@ -14,7 +14,7 @@ layout: "base.njk"
   </p>
   </section>
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1,5 plan</h2>
       <p>Under väderskydd, Näsbypark, Täby</p>
     </div>
@@ -24,7 +24,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1,5 plan</h2>
       <p>Under väderskydd, Näsbypark, Täby</p>
     </div>
@@ -34,7 +34,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1,5 plan</h2>
       <p>Under väderskydd, Näsbypark, Täby</p>
     </div>
@@ -44,7 +44,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1,5 plan</h2>
       <p>Bottenplan, glovvärme, Näsbypark, Täby</p>
     </div>
@@ -54,7 +54,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1,5 plan</h2>
       <p>Fönsterdetalj, överbleck infällt bakom fasadpanel</p>
     </div>

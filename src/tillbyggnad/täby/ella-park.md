@@ -4,7 +4,7 @@ canonical: "https://www.byggward.se/tillbyggnad/täby/ella-park"
 layout: "base.njk"
 ---
 
-<section>
+<section class="editable">
   <h1>Tillbyggnad i ett plan i Ella Park, Täby</h1>
   <p>
     De flesta byggobjekt börjar med en skiss. Efter detta sker ofta den
@@ -14,7 +14,7 @@ layout: "base.njk"
   </p>
   </section>
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1 plan</h2>
       <p>Valmad takkonstruktion, Ella Park, Täby</p>
     </div>
@@ -24,7 +24,7 @@ layout: "base.njk"
   </section>
 
   <section class="split-section">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad 1 plan samt altan</h2>
       <p>Ella Park, Täby</p>
     </div>

@@ -4,7 +4,7 @@ canonical: "https://www.byggward.se/tillbyggnad"
 layout: "base.njk"
 ---
 
-<section>
+<section class="editable">
   <h1>Tillbyggnation - vad gäller egentligen?</h1>
   <p>
   Går du och drömmer om att bygga om, bygga till, eller bygga ut? Då blir frågorna snabbt många. Hur börjar man? Vad gör man först? Vad gäller egentligen?
@@ -17,63 +17,63 @@ layout: "base.njk"
   </p>
   </section>
 
-<section>
+<section class="editable">
   <h2>Tillbyggnad av hus</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-<section>
+<section class="editable">
   <h2>Tillbyggnad utan bygglov</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-<section>
+<section class="editable">
   <h2>Kostnad för tillbyggnad</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-<section>
+<section class="editable">
   <h2>Tillbyggnad av timmerhus</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-  <section>
+  <section class="editable">
   <h2>Kostnad för tillbyggnad på 15 kvm</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-  <section>
+  <section class="editable">
   <h2>Tillbyggnad utanför detaljplan</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-  <section>
+  <section class="editable">
   <h2>Kostnad för tillbyggnad av hus</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-  <section>
+  <section class="editable">
   <h2>Tillbyggnad av attefallshus</h2>
   <p>
     Kan verka snårigt...
   </p>
   </section>
 
-  <section>
+  <section class="editable">
   <h2>Tillbyggnad av tegelhus</h2>
   <p>
     Kan verka snårigt...

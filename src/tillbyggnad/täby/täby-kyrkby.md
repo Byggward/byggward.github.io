@@ -4,7 +4,7 @@ canonical: "https://www.byggward.se/tillbyggnad/täby/täby-kyrkby"
 layout: "base.njk"
 ---
 
-<section>
+<section class="editable">
   <h1>Tillbyggnad av vardagsrum i Täby kyrkby, Täby</h1>
   <p>
     De flesta byggobjekt börjar med en skiss. Efter detta sker ofta den
@@ -14,7 +14,7 @@ layout: "base.njk"
   </p>
   </section>
   <section class="split-section split-reverse">
-    <div>
+    <div class="editable">
       <h2>Tillbyggnad vardagsrum</h2>
       <p>Täby kyrkby i Täby</p>
     </div>
