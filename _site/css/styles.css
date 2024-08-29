@@ -766,4 +766,37 @@ main {
 .gallery .gallery-wrapper .gallery-item img {
   display: block;
   height: 100%;
+}
+
+.split-section {
+  display: flex;
+  flex-flow: row wrap;
+}
+.split-section img {
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .split-section p,
+  .split-section h2 {
+    margin: 0 32px 0 0;
+  }
+}
+.split-section > div {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .split-section > div {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .split-section.split-reverse {
+    flex-flow: row-reverse wrap;
+  }
+}
+@media (min-width: 992px) {
+  .split-section.split-reverse p,
+  .split-section.split-reverse h2 {
+    margin: 0 0 0 32px;
+  }
 }/*# sourceMappingURL=styles.css.map */

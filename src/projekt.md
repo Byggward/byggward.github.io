@@ -1,5 +1,6 @@
 ---
-title: "Byggwardrdrdd"
+title: "Byggfirma och snickare i Täby som utför all renovering | Byggward AB"
+canonical: "https://www.byggward.se/projekt"
 layout: "base.njk"
 ---
 
@@ -13,28 +14,29 @@ layout: "base.njk"
   <p>Vi har utfört tillbyggnadsarbeten av villor, radhus och kedjehus.</p>
   <div class="gallery">
   <div class="gallery-wrapper">
-  <div class="gallery-item"><img src="/images/gallery/11.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/12.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/13.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/14.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/15.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/21.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/31.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/41.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/42.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/43.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/44.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/45.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/51.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/52.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/61.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/62.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/63.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/64.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/71.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/72.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/73.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/74.png"></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/1#1"><img src="/images/gallery/11.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/1#2"><img src="/images/gallery/12.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/1#3"><img src="/images/gallery/13.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/1#4"><img src="/images/gallery/14.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/1#5"><img src="/images/gallery/15.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/täby-kyrkby"><img src="/images/gallery/21.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/vallentuna"><img src="/images/gallery/31.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/ensta#1"><img src="/images/gallery/41.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/ensta#2"><img src="/images/gallery/42.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/ensta#3"><img src="/images/gallery/43.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/ensta#4"><img src="/images/gallery/44.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/ensta#5"><img src="/images/gallery/45.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/ella-park#1"><img src="/images/gallery/51.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/ella-park#2"><img src="/images/gallery/52.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/2#1"><img src="/images/gallery/61.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/2#1"><img src="/images/gallery/62.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/2#1"><img src="/images/gallery/63.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/skarpäng/2#1"><img src="/images/gallery/64.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/näsbypark#1"><img src="/images/gallery/71.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/näsbypark#2"><img src="/images/gallery/72.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/näsbypark#3"><img src="/images/gallery/73.png"></a></div>
+  <div class="gallery-item"><a href="/tillbyggnad/täby/näsbypark#4"><img src="/images/gallery/74.png"></a></div>
+    <div class="gallery-item"><a href="/tillbyggnad/täby/näsbypark#5"><img src="/images/gallery/87.png"></a></div>
   </div>
   </div>
 </section>
@@ -46,12 +48,12 @@ layout: "base.njk"
   </p>
   <div class="gallery">
   <div class="gallery-wrapper">
-  <div class="gallery-item"><img src="/images/gallery/81.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/82.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/83.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/84.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/85.png"></div>
-  <div class="gallery-item"><img src="/images/gallery/86.png"></div>
+  <div class="gallery-item"><a href="/renovering/dusch-och-wc#1"><img src="/images/gallery/81.png"></a></div>
+  <div class="gallery-item"><a href="/renovering/dusch-och-wc#2"><img src="/images/gallery/82.png"></a></div>
+  <div class="gallery-item"><a href="/renovering/dusch-och-wc#3"><img src="/images/gallery/83.png"></a></div>
+  <div class="gallery-item"><a href="/renovering/dusch-och-wc#4"><img src="/images/gallery/84.png"></a></div>
+  <div class="gallery-item"><a href="/renovering/dusch-och-wc#5"><img src="/images/gallery/85.png"></a></div>
+  <div class="gallery-item"><a href="/renovering/dusch-och-wc#6"><img src="/images/gallery/86.png"></a></div>
   </div>
   </div>
 </section>

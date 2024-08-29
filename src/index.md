@@ -1,5 +1,6 @@
 ---
-title: "Byggward"
+title: "Byggfirma och snickare i Täby som utför all renovering | Byggward AB"
+canonical: "https://www.byggward.se"
 layout: "base.njk"
 ---
 

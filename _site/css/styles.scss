@@ -87,3 +87,40 @@ main {
     }
   }
 }
+
+.split-section {
+  display: flex;
+  flex-flow: row wrap;
+
+  img {
+    max-width: 100%;
+  }
+
+  p,
+  h2 {
+    @include breakpoint-up(lg) {
+      margin: 0 32px 0 0;
+    }
+  }
+
+  & > div {
+    width: 100%;
+
+    @include breakpoint-up(lg) {
+      width: 50%;
+    }
+  }
+
+  &.split-reverse {
+    @include breakpoint-up(lg) {
+      flex-flow: row-reverse wrap;
+    }
+
+    p,
+    h2 {
+      @include breakpoint-up(lg) {
+        margin: 0 0 0 32px;
+      }
+    }
+  }
+}
