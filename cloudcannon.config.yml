@@ -6,5 +6,5 @@ paths:
   static: ''
   uploads: uploads
   includes: _includes
-  pages: src
+  pages: ''
 timezone: Etc/UTC
